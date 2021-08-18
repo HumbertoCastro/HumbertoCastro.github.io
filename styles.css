@@ -1,0 +1,10 @@
+h1 {
+    color:orange;
+  }
+  li{
+      list-style-type: "\1F44D";
+  }
+  .textochave{
+      font-size:xx-large;
+      font-weight: 1200;
+  }
