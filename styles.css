@@ -1,5 +1,6 @@
 h1 {
     width: 50%;
+    padding: 10px px;    
     margin-left: auto;
     margin-right: auto;
     background-color: #C14953;
@@ -41,10 +42,18 @@ h1 {
     font-weight: bold;
     background-color:#E5DCC5;
 }
-.habildades {
+.humberto{
+  padding: 10px 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
   background-color: #C14953;
-  font-size: x-large;
+  border-radius: 5px;
   text-align: center;
+  font-size: x-large;
+  text-decoration: none;
+  color:black;
 }
 #Unity{
   font-size: xxx-large;
