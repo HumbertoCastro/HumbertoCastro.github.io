@@ -1,77 +1,92 @@
-h1 {
-    width: 50%;
-    padding: 10px px;    
-    border-radius: 10px;
-  }
+
   .center{
     margin-left:auto;
     margin-right: auto;
     text-align: center;
   }
   .cabecalho{
-     width: 80%;float: none;padding: 0% 10%;background-color: #848FA5;
+     width: 80%;float: none;padding: 0% 10%;background-color: #0E131F;background-size: cover;display: inline-block;
+     /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .grid{
+    border: 15px solid #40C9A2;
+    margin: 30px 50px;
+    border-radius: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 100px;
     grid-gap: 10px;
   }
-  li{
-    margin-top: 10px;
-        height: 60px;
-        text-align:center;        
-      list-style-type: "\1F44D";
+    li{
+      
+  /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+      margin: 20px;          
+      text-align:center;        
+      list-style-type: none;
       list-style-position:inside;
-      font-size: x-large;
-      background-color: #848FA5;
+      font-size: xxx-large;
+      background-color: #38405F;
+      background-size: cover;
+      color: #FFFFFF;
       border-radius: 20px;             
   }
-  .redcolor{
-    background-color: #C14953;
+  .trybe{
+    text-decoration: none; 
+    border-radius: 5px;
+    color: #FFFFFF;
+  }
+  .greencolor{
+    background-color: #40C9A2;
+    color: #FFFFFF;
   }
   li:hover {
+    overflow-x: hidden;
+    background-color: #40C9A2;   
     transition: 180ms ;
-    transform:scale(120%);
-
-    background-color: #C14953;    
-  }
-  
-  .textochave{
-    font-family: initial;
-      font-size:xx-large;
-      font-weight: 1200;
+    transform:scale(120%); 
   }
   .descriçao{
     font-style: italic;
-    text-align: center;   
+    text-align: center;
+    color: #FFFFFF;  
   }
-  img{
+  img{    
     display: block;
     width: 30%;
     border-radius: 80px;
-    border: 10px solid #E5DCC5;
+    border: 10px solid #FFFFFF;
   }
   body{
+    overflow:hidden;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
     color: #2D2D2A;
-        font-family: monospace; 
+    font-family: monospace; 
     font-weight: bold;
-    background-color:#E5DCC5;
+    background-color:#FFFFFF;
 }
 .humberto{
-  border: 5px solid #848FA5;
   padding: 8px 10px;
+  margin-bottom: 20px;
   display: block;
-  width: 10%;
-  border-radius: 25px;
+  width: 20%;
+  border-radius: 10px;
   font-size: x-large;
   text-decoration: none;
-  color:black;
+  color:#FFFFFF;
 }
 #redes{
+  color: #FFFFFF;
   padding: 10px 30px;
   width: 6%;
   border-radius: 5px;
+}
+.habilidades{
+  text-align: center;
+  font-size: x-large;
 }
 .Unity{
   font-size: xxx-large;
