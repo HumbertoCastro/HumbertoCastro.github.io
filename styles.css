@@ -11,21 +11,30 @@ h1 {
   .cabecalho{
      width: 80%;float: none;padding: 0% 10%;background-color: #848FA5;
   }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+  }
   li{
     margin-top: 10px;
+        height: 60px;
+        text-align:center;        
       list-style-type: "\1F44D";
       list-style-position:inside;
       font-size: x-large;
       background-color: #848FA5;
-      width: 40%;
-      border-radius: 20px;     
+      border-radius: 20px;             
   }
   .redcolor{
     background-color: #C14953;
   }
   li:hover {
     transition: 180ms ;
-    transform:scale(120%)
+    transform:scale(120%);
+
+    background-color: #C14953;    
   }
   
   .textochave{
@@ -64,6 +73,6 @@ h1 {
   width: 6%;
   border-radius: 5px;
 }
-#Unity{
+.Unity{
   font-size: xxx-large;
 }
