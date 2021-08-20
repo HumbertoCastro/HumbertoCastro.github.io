@@ -43,17 +43,27 @@ h1 {
     background-color:#E5DCC5;
 }
 .humberto{
-  padding: 10px 30px;
+  border: 5px solid #848FA5;
+  padding: 8px 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 10%;
   background-color: #C14953;
-  border-radius: 5px;
+  border-radius: 25px;
   text-align: center;
   font-size: x-large;
   text-decoration: none;
   color:black;
+}
+#redes{
+  padding: 10px 30px;
+  width: 6%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #C14953;
+  border-radius: 5px;
 }
 #Unity{
   font-size: xxx-large;
