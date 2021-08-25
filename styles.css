@@ -5,12 +5,13 @@
     text-align: center;
   }
   .cabecalho{
-     width: 80%;float: none;padding: 0% 10%;background-color: #0E131F;background-size: cover;display: inline-block;
+     width: 80%;float: none;padding: 0% 10%;background-color: #0E131F; background-size: cover;display: inline-block;
      /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .grid{
-    border: 15px solid #40C9A2;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 30px 50px;
     border-radius: 25px;
     display: grid;
@@ -19,7 +20,6 @@
     grid-gap: 10px;
   }
   .Sites{
-    border: 15px solid #40C9A2;
     margin: 30px 50px;
     border-radius: 25px;
     display: grid;
@@ -27,7 +27,7 @@
     grid-gap: 10px;    
   }
   .Sites li{
-    height: 250px;
+    height: 280px;
     text-align: center;
     text-decoration: none;
     font-size: xx-large;
@@ -41,9 +41,11 @@
         width: 80%;
   }
   .Sites li a{
-    height: 250px;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);    
     background-color: white;
     text-decoration: none;
     color: black;
