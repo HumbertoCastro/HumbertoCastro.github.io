@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    background-color: rgb(253, 251, 251);
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header h1 {
+    color: white;
+    font-family: monospace;
+    margin: 0px auto;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: green;
+    font-size: xxx-large;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.foto{
+    margin: auto;
+    display: block;
+    width: 500px;    
+    border-radius: 10%;
+    border: 10px solid green;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.foto:hover{
+    transition: 180ms ;
+    transform:scale(120%); 
+}
+.paddin{
+    padding-top: 100px;
+}
+.lista{
+    margin-top: 0px;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    list-style-type: none;
+}
+.lista li{
+    background-color: white;
+    display: inline-block;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    line-height: 30px;
+    height: 40px;
+    width: 40%;
+    font-weight: bold;
+}
+.lista li:hover{
+    transition: 180ms ;
+    transform:scale(120%); 
+}
+table{
+    margin:auto;
+    margin-top: 10px;
+    background-color: green;
+    color: wheat;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */   
+}
+table th{
+    padding: 10px;    
+}
+table th a{
+    color: blue;
+    text-decoration: none;
+}
+.licoes{
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer{
+    margin-top: 100px;
+    background-color: green;
+    color: white;
+}
+.links{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size: large;
+    padding: 0px 20px;
+    color:green;
+}
+.nav{
+    margin: 0px 10px;
+    padding-bottom: 10px;
+}
+.lado-esquerdo{
+    background-color: white;
+    float: left;
+    width: 60%;
+    font-size: x-large;
+}
+.lado-direito{
+    float: right;
+    width: 25%;
+    background-color: white;
+    margin-right: 10px;
+    font-size: large;
+}
+.lados{
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    color: black;
+    font-family: monospace;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px;
+    margin: 0px 20px;
+}
