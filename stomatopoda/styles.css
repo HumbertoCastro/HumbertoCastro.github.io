@@ -1,0 +1,122 @@
+.header{
+    background-color: brown;
+    color: whitesmoke;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+.header p{
+    font-size: xxx-large;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+#soco{
+    font-size: large;
+}
+.links{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: wheat;
+    margin:80px 0px 0px 0px;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.links ul{
+    margin: 0;
+}
+.links li{
+    display: inline-block;
+    margin-right: 100px;    
+}
+.links li a{
+    font-size: x-large;
+    text-decoration: none;
+}
+body{
+    display: grid;
+    margin: 0px;
+}
+article{
+    margin-top: 10px;
+}
+article header{
+    text-align: center;
+    font-size: xx-large;
+    background-color: brown;
+    color: whitesmoke;
+    width: 35%;
+
+    margin: 15px auto;
+    border-radius: 25px;
+}
+article h1,h2,h3{
+    text-align: center;
+    background-color: wheat;
+}
+article p{
+    text-align: center;
+}
+img{
+    display: block;
+    border-radius: 20%;
+    margin: auto;
+}
+footer{
+    background-color: brown;
+    height: 100px;
+    margin:10px 0px 0px 0px;
+    text-align: center;
+}
+table{
+
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */   
+
+}
+table thead{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */
+}
+table th,td{
+    padding: 10px;
+    
+}
+.rgb1{
+    height: 25px;
+    width: 25px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+}
+.rgb2{
+    height: 25px;
+    width: 25px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: blue;
+}
+.rgb3{
+    height: 25px;
+    width: 25px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: green;
+}
+.rgb4{
+    height: 25px;
+    width: 25px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: grey;
+}

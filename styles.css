@@ -18,7 +18,36 @@
     grid-template-rows: 100px 100px;
     grid-gap: 10px;
   }
-    li{
+  .Sites{
+    border: 15px solid #40C9A2;
+    margin: 30px 50px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;    
+  }
+  .Sites li{
+    height: 250px;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+    list-style-type: none;
+    padding: 20px;
+    margin:20px auto;
+    background-color: white;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 80%;
+  }
+  .Sites li a{
+    height: 250px;
+    text-decoration: none;
+    padding: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+  }
+   .grid li{
       
   /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
       box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
@@ -59,7 +88,6 @@
     border: 10px solid #FFFFFF;
   }
   body{
-    overflow:hidden;
     margin-top: 10px;
     margin-left: 0;
     margin-right: 0;
@@ -78,6 +106,9 @@
   text-decoration: none;
   color:#FFFFFF;
 }
+.humberto:hover{
+  background-color: black;
+}
 #redes{
   color: #FFFFFF;
   padding: 10px 30px;
@@ -90,4 +121,7 @@
 }
 .Unity{
   font-size: xxx-large;
+}
+header h1{
+  text-align: center;
 }
