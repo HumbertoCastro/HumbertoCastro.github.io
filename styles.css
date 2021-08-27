@@ -9,16 +9,6 @@
      /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  .grid{
-    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 30px 50px;
-    border-radius: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    grid-gap: 10px;
-  }
   .Sites{
     margin: 30px 50px;
     border-radius: 25px;
@@ -57,18 +47,24 @@
     width: 260px;
     border-radius: 20px;
   }
-   .grid li{
-      
+  .grid{
+    margin: 30px 50px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+   .grid li{      
   /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
       box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-      margin: 20px;          
+      margin: 20px;     
+      height: 350px;     
       text-align:center;        
       list-style-type: none;
       list-style-position:inside;
-      font-size: xxx-large;
-      background-color: #38405F;
+      font-size: x-large;
       background-size: cover;
-      color: #FFFFFF;
+      color: black;
       border-radius: 20px;             
   }
   .trybe{
