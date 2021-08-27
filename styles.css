@@ -93,10 +93,7 @@
     border-radius: 80px;
     border: 10px solid #FFFFFF;
   }
-  body{
-    margin-bottom: 0px;
-    margin-left: 0;
-    margin-right: 0;
+  body{margin: 0px;
     color: #2D2D2A;
     font-family: monospace; 
     font-weight: bold;
