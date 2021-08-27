@@ -94,7 +94,7 @@
     border: 10px solid #FFFFFF;
   }
   body{
-    margin-top: 10px;
+    margin-bottom: 0px;
     margin-left: 0;
     margin-right: 0;
     color: #2D2D2A;
@@ -130,4 +130,31 @@
 }
 header h1{
   text-align: center;
+}
+.footer{
+  padding: 80px;
+  background-color:  #0E131F;
+  margin-bottom: 0px;
+}
+.footer details{
+  float: left;
+  margin-bottom: 0px;
+}
+.footerh1{
+  float: right;
+  color: #FFFFFF;
+}
+html{
+  scroll-behavior: smooth;
+}
+.backtotop{
+  display: block;
+  width: 10%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #40C9A2;
 }
