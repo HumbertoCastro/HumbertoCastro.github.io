@@ -5,9 +5,30 @@
     text-align: center;
   }
   .cabecalho{
-     width: 80%;float: none;padding: 0% 10%;background-color: #0E131F; background-size: cover;display: inline-block;
-     /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:block;
+     width: 100%;
+  }
+  header img{    
+    top: 0px;
+    position:absolute;
+    margin: 0px;
+    display: block;
+    width: 25%;
+    border-radius: 80px;
+    border: 10px solid #FFFFFF;
+  }
+  .humberto{
+    top:5%;
+    left:30%;
+    position: absolute;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    display: block;
+    width: 20%;
+    border-radius: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    color:#FFFFFF;
   }
   .Sites{
     margin: 30px 50px;
@@ -87,27 +108,11 @@
     text-align: center;
     color: #FFFFFF;  
   }
-  header img{    
-    display: block;
-    width: 30%;
-    border-radius: 80px;
-    border: 10px solid #FFFFFF;
-  }
   body{margin: 0px;
     color: #2D2D2A;
     font-family: monospace; 
     font-weight: bold;
     background-color:#FFFFFF;
-}
-.humberto{
-  padding: 8px 10px;
-  margin-bottom: 20px;
-  display: block;
-  width: 20%;
-  border-radius: 10px;
-  font-size: x-large;
-  text-decoration: none;
-  color:#FFFFFF;
 }
 .humberto:hover{
   background-color: black;
