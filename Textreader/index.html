@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leitor</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Digite seu texto aqui</h1>
+    </header>
+    <textarea class="texto" rows="10" cols="100">escreva seu texto aqui</textarea>
+    <footer>
+        <div class="grid">
+            <div><details><summary>Background Color</summary><input type="color" class="colorpickerbackground"></details></div>
+            <div><details><summary>Text Color</summary><input type="color" class="colorpickertext"></details></div>
+            <div><details><summary>Font size</summary><input type="range" min="10" max="30"  class="TextSize" ></details></div>
+            <div><details><summary>Line Spacing</summary><input type="range" min="12" max="50" class="linespacing" ></details></div>
+            <div><details><summary>Choose Font</summary><input type="text" class="FontName" placeholder="arial"></details></div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

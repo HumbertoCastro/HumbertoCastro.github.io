@@ -1,0 +1,36 @@
+header h1{
+    padding-top: 60px;
+    text-align: center;    
+}
+.texto{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    border: none;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 100px 0px 100px 0px;
+    padding-bottom: 20%;
+}
+body{
+    background-color: whitesmoke;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    
+    width: 100%;
+}
+.grid{
+  margin: 30px 50px;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px; 
+}
+.grid details{
+    background-color: #ACECA1;
+    text-align: center;
+    border-radius: 10px;
+}
