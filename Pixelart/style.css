@@ -24,8 +24,18 @@
 header h1{
     text-align: center;
 }
+button:hover{
+    transition: 180ms ;
+    transform:scale(140%); 
+}
 
-#clear-board{
+
+#clear-board , #generate-board{
+    background-color:#F3A712;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    border-radius: 20px;
     display: block;
     margin: 20px auto;
 }
@@ -39,6 +49,16 @@ header h1{
     margin: auto;
     line-height: 0;
 }
+.selected{
+    border: 6px solid red;
+}
 .tamanho{    
     display: block;margin:20px auto;
+}
+body{
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 6%;
+    border-radius: 20px;
+    padding-bottom: 20%;
 }
