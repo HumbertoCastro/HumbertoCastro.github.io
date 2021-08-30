@@ -1,0 +1,44 @@
+.color{
+    border: black solid 1px;
+    list-style-type: none;
+    display: inline-block;   
+    line-height: 0px;
+    padding: 0;
+}
+#color-palette{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.pixelCube{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header h1{
+    text-align: center;
+}
+
+#clear-board{
+    display: block;
+    margin: 20px auto;
+}
+#generate-board{
+    display: block;
+    margin: 10px auto;
+}
+.pixel {
+    text-align: center;
+    display: block;
+    margin: auto;
+    line-height: 0;
+}
+.tamanho{    
+    display: block;margin:20px auto;
+}

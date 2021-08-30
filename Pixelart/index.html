@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Paleta de Cores
+        </h1>
+            <div id="color-palette">
+                <li class="color selected"></li>
+                <li class="color"></li>
+                <li class="color"></li>
+                <li class="color"></li>
+                <li class="color"></li>          
+                </div>
+    </header>
+    <section>
+        <button id="clear-board" onclick= CleanBoard()>
+            <h1>
+                Limpar
+            </h1>
+        </button>
+        <div>
+            <input type="text" class="tamanho" placeholder="DIGITE O TAMANHO">
+            <button id="generate-board" onclick=tamanho()>
+                <h1>
+                    VQV                    
+                </h1>
+        </button>
+        </div>
+    </section>
+    <main>
+       <div class="pixel" id="pixel-board">
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
