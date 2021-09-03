@@ -1,162 +1,164 @@
-
-  .center{
-    margin-left:auto;
-    margin-right: auto;
-    text-align: center;
-  }
-  .cabecalho{
-    display:block;
-     width: 100%;
-  }
-  header img{    
-    top: 0px;
-    position:absolute;
-    margin: 0px;
-    display: block;
-    width: 25%;
-    border-radius: 80px;
-    border: 10px solid #FFFFFF;
-  }
-  .humberto{
-    top:5%;
-    left:30%;
-    position: absolute;
-    padding: 8px 10px;
-    margin-bottom: 20px;
-    display: block;
-    width: 20%;
-    border-radius: 10px;
-    font-size: x-large;
-    text-decoration: none;
-    color:#FFFFFF;
-  }
-  .Sites{
-    margin: 30px 50px;
-    border-radius: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;    
-  }
-  .Sites li{
-    height: 280px;
-    text-align: center;
-    text-decoration: none;
-    font-size: xx-large;
-    list-style-type: none;
-    padding: 20px;
-    margin:20px auto;
-    background-color: white;
-    border-radius: 10px;
-    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-        width: 80%;
-  }
-  .Sites li a{
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 20px;
-    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);    
-    background-color: white;
-    text-decoration: none;
-    color: black;
-  }
-  .Sites li p{
-    font-size: large;
-  }
-  .Sites li img{
-    width: 260px;
-    border-radius: 20px;
-  }
-  .grid{
-    margin: 30px 50px;
-    border-radius: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-  }
-   .grid li{      
-  /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
-      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-      margin: 20px;     
-      height: 350px;     
-      text-align:center;        
-      list-style-type: none;
-      list-style-position:inside;
-      font-size: x-large;
-      background-size: cover;
-      color: black;
-      border-radius: 20px;             
-  }
-  .trybe{
-    text-decoration: none; 
-    border-radius: 5px;
-    color: #FFFFFF;
-  }
-  .greencolor{
-    background-color: #40C9A2;
-    color: #FFFFFF;
-  }
-  li:hover {
-    overflow-x: hidden;
-    background-color: #40C9A2;   
-    transition: 180ms ;
-    transform:scale(120%); 
-  }
-  .descriçao{
-    font-style: italic;
-    text-align: center;
-    color: #FFFFFF;  
-  }
-  body{margin: 0px;
-    color: #2D2D2A;
-    font-family: monospace; 
-    font-weight: bold;
-    background-color:#FFFFFF;
-}
-.humberto:hover{
-  background-color: black;
-}
-#redes{
-  color: #FFFFFF;
-  padding: 10px 30px;
-  width: 6%;
-  border-radius: 5px;
-}
-.habilidades{
-  text-align: center;
-  font-size: x-large;
-}
-.Unity{
-  font-size: xxx-large;
-}
-header h1{
+.center{
+  margin-left:auto;
+  margin-right: auto;
   text-align: center;
 }
-.footer{
-  padding: 80px;
-  background-color:  #0E131F;
-  margin-bottom: 0px;
+.cabecalho{
+  display:block;
+   width: 100%;
 }
-.footer details{
-  float: left;
-  margin-bottom: 0px;
-}
-.footerh1{
-  float: right;
-  color: #FFFFFF;
-}
-html{
-  scroll-behavior: smooth;
-}
-.backtotop{
+header img{    
+  top: 0px;
+  position:absolute;
+  margin: 0px;
   display: block;
-  width: 10%;
+  width: 25%;
+  border-radius: 80px;
+  border: 10px solid #FFFFFF;
+}
+.humberto{
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  display: block;
+  width: 20%;
   border-radius: 10px;
-  padding: 10px;
-  margin: auto;
+  font-size: 1rem;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+.Sites{
+  margin: 2rem auto;
+  border-radius: 25px;
+  width: 100%;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sites div {
+  min-width: 50%;
+  max-height: 30%;
+  width: 50%;
+}
+.Sites li{
   text-align: center;
   text-decoration: none;
-  color: white;
+  list-style-type: none;
+  padding: 20px;
+  margin: 1rem 1rem;
+  background-color: white;
+  border-radius: 43px;
+  background: linear-gradient(225deg, #e6e6e6, #ffffff);
+  box-shadow:  -12px 12px 21px #c7c7c7,12px -12px 21px #ffffff;
+}
+.Sites li a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);    
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+.Sites li p{
+  font-size: 1rem;
+}
+.Sites li img{
+  width: 100%;
+  border-radius: 20px;
+}
+.grid{
+  margin: 30px 50px;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+ .grid li{      
+/* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;     
+    height: 350px;     
+    text-align:center;        
+    list-style-type: none;
+    list-style-position:inside;
+    font-size: x-large;
+    background-size: cover;
+    color: black;
+    border-radius: 20px;             
+}
+.trybe{
+  text-decoration: none; 
+  border-radius: 5px;
+  color:  #40C9A2; 
+}
+.greencolor{
   background-color: #40C9A2;
+  color: #FFFFFF;
+}
+li:hover {
+  overflow-x: hidden;
+  background-color: #40C9A2;   
+  transition: 180ms ;
+  transform:scale(120%); 
+}
+.descriçao{
+  margin-top: 6rem;
+  font-style: italic;
+  text-align: center;
+  color:black;  
+}
+body{margin: 0px;
+  color: #2D2D2A;
+  font-family: monospace; 
+  font-weight: bold;
+  background-color:#FFFFFF;
+}
+.humberto:hover{
+background-color: black;
+}
+#redes{
+color: #FFFFFF;
+padding: 10px 30px;
+width: 6%;
+border-radius: 5px;
+}
+.habilidades{
+text-align: center;
+font-size: x-large;
+}
+.Unity{
+font-size: xxx-large;
+}
+header h1{
+text-align: center;
+}
+.footer{
+padding: 80px;
+background-color:  #0E131F;
+margin-bottom: 0px;
+}
+.footer details{
+float: left;
+margin-bottom: 0px;
+}
+.footerh1{
+float: right;
+color: #FFFFFF;
+}
+html{
+scroll-behavior: smooth;
+}
+.backtotop{
+display: block;
+width: 10%;
+border-radius: 10px;
+padding: 10px;
+margin: auto;
+text-align: center;
+text-decoration: none;
+color: white;
+background-color: #40C9A2;
 }
