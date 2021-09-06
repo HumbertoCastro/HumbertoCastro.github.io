@@ -74,25 +74,41 @@
 }
 
 .grid {
-  margin: 30px 50px;
+  width: 100%;
   border-radius: 25px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
+.grid div {
+  display: flex;
+  flex-direction: column;
+}
+
+.Icons {
+  align-self:flex-end;
+  position: relative;
+  top: 0;
+}
+
 .grid li {
   /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px solid #40C9A2;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 20px;
-  height: 350px;
-  text-align: center;
+  margin: 10vh 0px;
+  height: 35vh;
+  max-height: 35vh;
   list-style-type: none;
   list-style-position: inside;
-  font-size: x-large;
+  font-size: 1rem;
   background-size: cover;
   color: black;
   border-radius: 20px;
+  align-self: flex-end;
 }
 
 .trybe {
@@ -106,9 +122,17 @@
   color: #FFFFFF;
 }
 
+.hiddencard {
+  display:none;
+}
+
+.hiddencard:hover {
+  display: block;
+}
+
 li:hover {
   background-color: #40C9A2;
-  transition: 180ms ;
+  transition: 480ms ;
   transform:scale(110%);
 }
 
