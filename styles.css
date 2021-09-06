@@ -3,19 +3,6 @@
   margin-right: auto;
   text-align: center;
 }
-.cabecalho{
-  display:block;
-   width: 100%;
-}
-header img{    
-  top: 0px;
-  position:absolute;
-  margin: 0px;
-  display: block;
-  width: 25%;
-  border-radius: 80px;
-  border: 10px solid #FFFFFF;
-}
 .humberto{
   padding: 8px 10px;
   margin-bottom: 20px;
@@ -26,6 +13,17 @@ header img{
   text-decoration: none;
   color:#FFFFFF;
 }
+
+.img {
+  z-index: 1;
+  margin: 5vh auto;
+  width: 30%;
+  height: 60%;
+  display: block;
+  border-radius: 50%;
+  border: 20px solid white;
+}
+
 .Sites{
   margin: 2rem auto;
   border-radius: 25px;
@@ -72,9 +70,9 @@ header img{
 .grid{
   margin: 30px 50px;
   border-radius: 25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
  .grid li{      
 /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */    
@@ -110,7 +108,8 @@ li:hover {
   text-align: center;
   color:black;  
 }
-body{margin: 0px;
+body{
+  margin: 0px 0px 0px;
   color: #2D2D2A;
   font-family: monospace; 
   font-weight: bold;
@@ -161,4 +160,10 @@ text-align: center;
 text-decoration: none;
 color: white;
 background-color: #40C9A2;
+}
+
+.headerimg2 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
 }
