@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: ubuntu;
 }
 
 .center {
@@ -9,14 +10,11 @@
 }
 
 .humberto {
-  animation: borderrainbow 4s linear infinite;
   padding: 1rem 1rem;
   display: block;
-  width: 30vw;
-  border-radius: 20px 0 20px 0;
   font-size: 1rem;
   text-decoration: none;
-  color:#FFFFFF;
+  color:#000;
 }
 
 .img {
@@ -150,13 +148,6 @@ li:hover {
   }
 }
 
-.descriçao {
-  margin-top: 2rem;
-  font-style: italic;
-  text-align: center;
-  color:black;
-}
-
 body {
   overflow-x: hidden;
   margin: 0px 0px 0px;
@@ -164,10 +155,6 @@ body {
   font-family: monospace;
   font-weight: bold;
   background-color:#FFFFFF;
-}
-
-.humberto:hover {
-background-color: black;
 }
 
 .habilidades {
@@ -221,4 +208,55 @@ background-color: #40C9A2;
 .img:hover {
   transition: 180ms ;
   transform:scale(120%);
+}
+
+main {
+  padding: 0 0 0 100px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main h1 {
+  color: #40C9A2;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+main h2 {
+  margin-top: 0;
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+main section {
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#fotoprincipal {  
+  margin-top: 10vh;
+  max-width: 45%;
+  height: 90vh;
+  filter: grayscale(80%);
+}
+
+header {
+  margin: 0 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #40C9A2;
+  margin: 0 2vw;
 }
