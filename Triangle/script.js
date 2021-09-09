@@ -2,7 +2,7 @@ function createtrinagulo () {
   resetar();
   let linhas = document.querySelector("input").value;
   if(linhas <= 34) {
-    for (let i = 0; i < linhas-1; i += 1) {
+    for (let i = 0; i < linhas; i += 1) {
       let linha = document.createElement("div");
       linha.className = "line";
   
