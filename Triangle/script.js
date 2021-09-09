@@ -10,7 +10,7 @@ function createtrinagulo () {
       for (let z = 0; z < i + 1 + 1 * i; z += 1) {
         let box = document.createElement('div');
         box.className = 'box';
-        let  randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+        let randomColor = "rgb("+(Math.round(Math.random()*260))+","+(Math.round(Math.random()*260))+","+(Math.round(Math.random()*260))+")";
         box.style.backgroundColor = randomColor;
         linha.appendChild(box);
         console.log('entrou');
