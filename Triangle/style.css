@@ -6,6 +6,7 @@ h1 {
   border: 3px solid darkgreen;
   box-sizing: border-box;
   padding: 30px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -48,6 +49,3 @@ body {
   display: inline-block;
 }
 
-.visit {
-  padding: 30px;
-}
