@@ -3,11 +3,12 @@ h1 {
 }
 
 .container {
-  border: 3px solid darkgreen;
   box-sizing: border-box;
   padding: 30px;
   margin-top: 10px;
   text-align: center;
+  /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .center {
