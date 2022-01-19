@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.activeC {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.activeW {
+  border: 3px solid rgb(255, 0, 0);
+}
+
+body {
+  background-color: #E84855;
+  margin: 0;
+  font-family: 'Nunito';
+}
+
+.app {
+  background-color: #E84855;
+  height: 100%;
+  width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+  font-size: 4rem;
+}
+
+#img-login {
+  z-index: -1;
+  height: 100vh;
+  width: 50vw;
+}
+
+.imagem-fundo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.login-container form {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 75vh;
+  width: 80vw;
+  color: #111;
+}
+
+#play-button {
+  width: 30%;
+  margin: 50px 0px;
+  border: none;
+  background-color: #E84855;
+  border-radius: 10px;
+  height: 15%;
+  font-size: 2rem;
+  color: white;
+}
+
+.forms-input {
+  width: 50%;
+  height: 25%;
+  border-radius: 62px;
+  border: none;
+  background: #ffffff;
+  box-shadow: inset 4px 4px 4px #cfcfcf,
+              inset -4px -4px 4px #ffffff;
+}
+
+.light-font {
+  font-size: 1rem;
+}
+
+#logo {
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+.wrapper {
+	 width: 100vw;
+   margin-bottom: 50px;
+	 text-align: center;
+}
+ .wrapper span {
+	 -webkit-text-stroke-width: 1.25px;
+	 -webkit-text-stroke-color: #000;
+	 font-size: 10rem;
+	 text-shadow: 0 0px #ff5353, 0 0px #ff5555;
+	 animation: jump 2s ease-in-out infinite;
+	 display: inline-block;
+	 font-family: "Titan One", cursive;
+	 color: #fff;
+}
+ .wrapper span:nth-child(1) {
+	 animation-delay: 120ms;
+}
+ .wrapper span:nth-child(2) {
+	 animation-delay: 240ms;
+}
+ .wrapper span:nth-child(3) {
+	 animation-delay: 360ms;
+}
+ .wrapper span:nth-child(4) {
+	 animation-delay: 480ms;
+}
+ .wrapper span:nth-child(5) {
+	 animation-delay: 600ms;
+}
+ .wrapper span:nth-child(6) {
+	 animation-delay: 720ms;
+}
+ @keyframes jump {
+	 33% {
+		 text-shadow: 0 30px #f37121, 0 60px #f2aaaa;
+	}
+	 50% {
+		 transform: translate(0, 0) rotate(-4deg);
+		 text-shadow: 0 0px #8bc2ce, 0 0px #3e7391;
+	}
+	 66.67% {
+		 text-shadow: 0 -30px #3e7391, 0 -60px #7feb91;
+	}
+}
