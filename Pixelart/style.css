@@ -1,64 +1,37 @@
-.color{
-    border: black solid 1px;
-    list-style-type: none;
-    display: inline-block;   
-    line-height: 0px;
-    padding: 0;
-}
-#color-palette{
-    text-align: center;
-    display: block;
-    margin: auto;
-}
-.pixelCube{
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid black;
-    margin: 0px;
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-header h1{
-    text-align: center;
-}
-button:hover{
-    transition: 180ms ;
-    transform:scale(140%); 
+body {
+    background-color: #ECECEC;
 }
 
-
-#clear-board , #generate-board{
-    background-color:#F3A712;
-    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: 0px;
-    border-radius: 20px;
-    display: block;
-    margin: 20px auto;
-}
-#generate-board{
-    display: block;
-    margin: 10px auto;
-}
-.pixel {
-    text-align: center;
-    display: block;
+.uol-box {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    max-width: 410px;
     margin: auto;
-    line-height: 0;
 }
-.selected{
-    border: 6px solid red;
+
+.box-title {
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #0088A5;
+    margin: 0 0 16px 0;
+    border-radius: 8px;
 }
-.tamanho{    
-    display: block;margin:20px auto;
+
+.box-button {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #0088A5;
+    box-shadow: 0px 3px #006E86;
+    border-radius: 4px;
+    border: none;
+    margin: 16px;
 }
-body{
-    /* Box shadows from --> https://www.w3schools.com/css/css3_shadows_box.asp */  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 6%;
-    border-radius: 20px;
-    padding-bottom: 20%;
+
+.box-support-text {
+    font-size: 16px;
+    color: #333333;
+    margin: 16px;
 }
