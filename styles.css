@@ -27,7 +27,7 @@ main {
   width: 60vw;
   min-height: 75vh;
   justify-content: start;
-  font-size: 12px;
+  font-size: 2rem;
 }
 
 header div, header h1{
@@ -48,7 +48,7 @@ header {
   margin: 0;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 12px;
+  font-size: 2rem;
 }
 
 header h1 {
@@ -56,6 +56,7 @@ header h1 {
 }
 
 footer {
+  font-size: 2rem;
   bottom: 0;
 }
 
@@ -85,7 +86,7 @@ footer {
   width: 30vw;
   text-align: center;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 2rem;
   padding: 20px;
   align-items: center;
 }
@@ -114,7 +115,7 @@ svg {
   margin: auto;
   width: 40vw;
   text-align: center;
-  font-size: 8px;
+  font-size: 1rem;
 }
 
 .project-card img {
@@ -131,6 +132,7 @@ a {
   margin-top: 20px;
   padding: 20px;
   text-align: center;
+  font-size: 2rem;
 }
 
 .icons {
@@ -142,7 +144,7 @@ a {
 }
 
 .hidden {
-  font-size: 150px;
+  font-size: 20rem;
   color: #c2c2c2;
   opacity: 0.13;
   position: absolute;
