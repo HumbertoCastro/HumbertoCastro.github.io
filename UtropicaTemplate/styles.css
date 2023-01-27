@@ -1,0 +1,125 @@
+* {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  font-size: 44px;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.focus {
+  color: #52E5AB;
+}
+
+.text {
+  color: #000000;
+}
+
+.white-text {
+  color: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin: auto;
+  width: 100vw;
+}
+
+video {
+  width: 100vw;
+}
+
+.video-card {
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, 0);
+  height: 15vh;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  font-size: 3em;
+  text-align: center;
+}
+
+header div {
+  font-size: 0.6em;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+  margin: auto;
+}
+
+header div a {
+  font-size: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  height: 40vh;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact div {
+  margin-top: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.line {
+  width: 2px;
+  height: inherit;
+  background-color: #000000;
+}
+
+.side-video {
+  width: 60vw;
+}
+
+.side-text {
+  margin: 0 10px;
+}
+
+.large {
+  font-size: 3em;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.medium {
+  font-size: 1.2em;
+}
+
+.xx-small {
+  font-size: 0.5em;
+}
