@@ -1,16 +1,16 @@
 * {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Nunito', sans-serif;
-  color: #5B9A73;
+  color: #000000;
   margin: 0;
 }
 
 .focus {
-  color: #52E5AB;
+  color: #000000;
 }
 
 .text {
-  color: #2e2e2e;
+  color: #464646;
 }
 
 .white-text {
@@ -139,4 +139,16 @@ a {
 
 .icons svg {
   margin-left: 30px;
+}
+
+.hidden {
+  font-size: 10rem;
+  color: #c2c2c2;
+  opacity: 0.13;
+  position: absolute;
+  line-height: 80%;
+  bottom: 0;
+  right: 1;
+  font-family: roboto;
+  width: 100vw;
 }
