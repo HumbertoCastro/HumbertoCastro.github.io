@@ -1,6 +1,5 @@
 * {
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Bebas Neue';
   color: #ffffff;
   font-size: 44px;
 }
@@ -36,6 +35,14 @@ video {
   width: 100vw;
 }
 
+.video-container {
+  position: relative;
+}
+
+.video-container:hover {
+  opacity: 10%;
+}
+
 .video-card {
 }
 
@@ -46,22 +53,17 @@ header {
   z-index: 2;
   transform: translate(-50%, 0);
   height: 15vh;
-  margin: 20px 0;
+  margin: 0;
   flex-wrap: wrap;
-  font-size: 3em;
   text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
 }
 
 header div {
-  font-size: 0.6em;
-  display: flex;
-  justify-content: space-evenly;
-  width: 40vw;
-  margin: auto;
-}
-
-header div a {
-  font-size: 0.5em;
+  justify-content: space-between;
+  width: 50vw;
 }
 
 a {
@@ -104,12 +106,26 @@ footer {
   width: 60vw;
 }
 
+.grid {
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+
+.grid-video {
+  width: 50vw;
+}
+
 .side-text {
   margin: 0 10px;
 }
 
 .large {
-  font-size: 3em;
+  font-size: 2em;
+}
+
+.center-text {
+  text-align: center;
+  font-weight: bold;
 }
 
 .small {
@@ -122,4 +138,31 @@ footer {
 
 .xx-small {
   font-size: 0.5em;
+}
+
+.icons {
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80vw;
+  margin: auto;
+}
+
+.over-big {
+  font-size: 5em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.about {
+  justify-content: space-around;
+  text-align: center;
+}
+
+.vertical-line {
+  width: 90vw;
+  height: 5px;
+  background-color: white;
+  margin: 10px auto;
 }
