@@ -39,13 +39,6 @@ video {
   position: relative;
 }
 
-.video-container:hover {
-  opacity: 10%;
-}
-
-.video-card {
-}
-
 header {
   position: fixed;
   top: 0;
